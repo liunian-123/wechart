@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "projiect1",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+"list":[{
+  "pagePath":"pages/my/my",
+  "text":"点餐",
+  "iconPath":"images/user.png",
+  "selectedIconPath":"images/user-active.png"
+},{
+  "pagePath":"pages/index/index",
+  "text":"吃饭",
+  "iconPath":"images/cloud.png",
+  "selectedIconPath":"images/cloud-active.png"
+}
+]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
