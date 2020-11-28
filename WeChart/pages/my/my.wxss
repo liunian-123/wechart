@@ -1,1 +1,9 @@
 /* pages/my/my.wxss */
+/* 整体变色 */
+page{
+  background-color: aqua;
+}
+/* container大小 */
+.container{
+  border: 1px solid black;
+}
